@@ -1,0 +1,220 @@
+---
+permalink: sc-automation/reference_supported_rest_apis.html 
+sidebar: sidebar 
+keywords: REST API categories 
+summary: 'Le risorse disponibili tramite l"API REST di SnapCenter sono organizzate in categorie, come mostrato nella pagina di documentazione dell"API di SnapCenter.' 
+---
+= API REST supportate per altri plug-in
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le risorse disponibili tramite l'API REST di SnapCenter sono organizzate in categorie, come mostrato nella pagina di documentazione dell'API di SnapCenter. Di seguito viene presentata una breve descrizione di ciascuna delle risorse con i percorsi delle risorse di base, insieme a ulteriori considerazioni sull'utilizzo, se del caso.
+
+
+
+== Auth
+
+È possibile utilizzare questa chiamata API per accedere al server SnapCenter. Questa API restituisce un token di autorizzazione utente utilizzato per autenticare le richieste successive.
+
+
+
+== Domini
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare tutti i domini
+* recuperare i dettagli di un dominio specifico
+* registrare o annullare la registrazione di un dominio
+* modificare un dominio
+
+
+
+
+== Lavori
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare tutti i lavori
+* recuperare lo stato di un lavoro
+* annullare o interrompere un lavoro
+
+
+
+
+== Impostazioni
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* registrare, visualizzare, modificare o rimuovere una credenziale
+* configurare le impostazioni di notifica
+
+
+
+
+== Host
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli dell'host
+* recuperare il plug-in installato e i relativi dettagli sulle risorse
+* aggiungere, rimuovere o modificare un host plug-in
+* installare o aggiornare i plug-in
+
+
+
+
+== Risorse
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare le risorse
+* creare, modificare o rimuovere risorse
+* proteggere una risorsa
+* eseguire il backup, il ripristino o la clonazione di una risorsa
+
+
+
+
+== Backup
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli del backup
+* rinominare o eliminare i backup
+
+
+
+
+== Cloni
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli dei cloni
+* eliminare i cloni
+
+
+
+
+== Clonesplit
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare lo stato di un'operazione di suddivisione dei cloni
+* avviare o arrestare un'operazione di suddivisione dei cloni
+
+
+
+
+== Gruppi di risorse
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli di un gruppo di risorse
+* creare, modificare o eliminare un gruppo di risorse
+* eseguire il backup di un gruppo di risorse
+
+
+
+
+== Policy
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli della policy
+* creare, modificare o eliminare i criteri
+
+
+
+
+== Storage
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli dello storage
+* creare, modificare o eliminare uno storage
+* scopri le risorse su uno storage
+* creare o eliminare una condivisione sullo storage
+
+
+
+
+== Condividere
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli di una condivisione
+* creare o eliminare una condivisione sullo storage
+
+
+
+
+== Plug-in
+
+È possibile utilizzare queste chiamate API per recuperare tutti i plug-in su un host ed eseguire diverse operazioni.
+
+
+
+== Report
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* generare report di backup, ripristino, clonazione e plug-in
+* aggiungere, eseguire, eliminare o modificare le pianificazioni
+
+
+
+
+== Avvisi
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare tutti gli avvisi
+* eliminare gli avvisi
+
+
+
+
+== RBAC
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* recuperare i dettagli di utenti, gruppi e ruoli
+* aggiungere utenti
+* creare, modificare o eliminare ruoli
+* assegnare o annullare l'assegnazione di ruoli e gruppi
+
+
+
+
+== Configurazione
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* visualizzare le impostazioni di configurazione
+* modificare le impostazioni di configurazione
+
+
+
+
+== CertificateSettings (Impostazioni certificazione)
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* visualizzare lo stato del certificato
+* modificare le impostazioni del certificato
+
+
+
+
+== Repository
+
+È possibile utilizzare queste chiamate API per eseguire le seguenti operazioni:
+
+* Eseguire il backup e il ripristino del repository NSM
+* Proteggere e non proteggere il repository NSM
+* failover
+* Ricostruire il repository NSM
+

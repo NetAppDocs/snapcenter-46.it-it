@@ -1,0 +1,115 @@
+---
+permalink: sc-automation/refrence_rest_apis_supported_for_oracle_database.html 
+sidebar: sidebar 
+keywords: REST APIs, oracle database 
+summary: Descrive i flussi di lavoro delle API REST supportati per il database Oracle 
+---
+= API REST supportate per database Oracle
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il database Oracle utilizza le API REST per eseguire le seguenti operazioni:
+
+
+
+== Credenziali
+
+* Registrare la credenziale con il server SnapCenter
+* Recuperare le credenziali registrate con il server SnapCenter
+* Recuperare la credenziale in base al nome
+* Modificare la credenziale
+* Elimina credenziale
+
+
+
+
+== Host
+
+* Aggiungere host
+* Rimuovere uno o più host da SnapCenter
+* Recuperare un host in base al nome
+
+
+
+
+== Plug-in
+
+* Installazione dei plug-in sull'host esistente
+* Plug-in di upgrade
+
+
+
+
+== Policy
+
+* Creare una nuova policy
+* Recupera policy per nome
+* Modificare la policy
+* Elimina policy
+
+
+
+
+== Gruppi di risorse
+
+* Proteggere il gruppo di risorse
+* Modificare la protezione
+* Rimuovere la protezione
+* Creare un nuovo gruppo di risorse
+* Recuperare il gruppo di risorse in base al nome
+* Modificare il gruppo di risorse
+* Eliminare il gruppo di risorse
+
+
+
+
+== Risorse
+
+* Rilevare i database
+* Configurare il database
+
+
+
+
+== Backup
+
+* Avviare un'operazione di backup delle risorse
+* Avviare un'operazione di backup
+* Recuperare i backup in base al nome
+* Recuperare i backup
+* Eliminare un backup in base al nome
+
+
+
+
+== Ripristinare
+
+* Ripristinare un backup
+
+
+
+
+== Aggiornamento dei cloni
+
+* Creare una specifica di clone del database Oracle da un backup specificato
+* Visualizzare, modificare ed eliminare il file specifico del clone
+* Aggiornamento dei cloni
+
+
+
+
+== RBAC
+
+* Assegnare le risorse a un utente o a un gruppo
+* Annullare l'assegnazione delle risorse a un utente o a un gruppo
+
+
+
+
+== Impostazioni di configurazione
+
+* Recuperare e modificare le impostazioni di configurazione
+
