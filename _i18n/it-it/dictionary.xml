@@ -5615,8 +5615,6 @@
   <block id="35602ea96136092b8b885fe1ef749873" category="list-text">Assicurarsi che i campi Endpoint, Identifier e Firma siano compilati.</block>
   <block id="907fe6bfcd498fe3e561f7fb3ee67c89" category="paragraph">La funzionalità MFA di SnapCenter può anche essere attivata utilizzando API REST.</block>
   <block id="1958e9c22cb352dba19d476e05b4a53b" category="paragraph">Dopo aver attivato, aggiornato o disattivato le impostazioni MFA in SnapCenter, chiudere tutte le schede del browser e riaprire un browser per effettuare nuovamente l'accesso. In questo modo, i cookie di sessione esistenti o attivi verranno deselezionati.</block>
-  <block id="442ed19a31ac1f651ba7bf07effe122c" category="inline-link-macro">L'accesso a SnapCenter in più schede mostra un errore MFA</block>
-  <block id="b07f8a55d09983494694fca31fee6b35" category="paragraph">Per informazioni sulla risoluzione dei problemi, vedere <block ref="46642a8ad62fd1a061e94d6b7bf62dc5" category="inline-link-macro-rx"></block></block>
   <block id="aeb89440d41f10fd9cc43ab75d800138" category="section-title">Aggiornare i metadati di ad FS MFA</block>
   <block id="19b3ff63dd3f3b6c1e3e48e8b3be6141" category="paragraph">È necessario aggiornare i metadati MFA di ad FS in SnapCenter ogni volta che si verifica una modifica nel server di ad FS, ad esempio aggiornamento, rinnovo del certificato CA, DR e così via.</block>
   <block id="2a18eff05051b9c720a786193ade4742" category="list-text">Copiare il file scaricato sul server SnapCenter per aggiornare la configurazione MFA.</block>
@@ -7801,4 +7799,6 @@
   <block id="52d2606cbe14d34b900ce50e86a67b13" category="sidebar">Clonare i file system Windows</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">Operazione non riuscita con errore Impossibile rilevare il dispositivo per il LUN</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">Assicurarsi che il LUN non sia mappato all'host AIX utilizzando iGroup costituito da protocolli misti iSCSI e FC. Per ulteriori informazioni, vedere<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
+  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link">L'accesso a SnapCenter in più schede mostra un errore MFA</block>
+  <block id="3954e6d000a63f90d0486b1a391b0efd" category="paragraph">Per informazioni sulla risoluzione dei problemi, vedere<block ref="75a1f4f9379e192498c16a8577967f33" category="inline-link-rx"></block></block>
 </blocks>
