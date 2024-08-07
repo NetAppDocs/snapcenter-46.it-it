@@ -3917,8 +3917,6 @@
   <block id="835be123689a0c878d2a9b458e5bf334" category="paragraph">Se il database viene eseguito in modalità ARCHIVELOG, SnapCenter identifica e monta il numero ottimale di backup dei log in base all'opzione SCN specificata, data e ora selezionate o tutti i log.</block>
   <block id="f99510060ae91e89fdabd39c0e222578" category="paragraph">Se si desidera comunque specificare la posizione dei file di log dell'archivio esterno, selezionare *specifica le posizioni esterne del log dell'archivio*.</block>
   <block id="5207ebbbc32a1a4bd295b43498ad0913" category="paragraph">Se i log di archiviazione vengono annullati come parte del backup e sono stati montati manualmente i backup del log di archiviazione richiesti, è necessario specificare il percorso di backup montato come posizione del log di archiviazione esterno per il ripristino.</block>
-  <block id="58fa648380c73e758318652a30ff424d" category="inline-link">Report tecnico di NetApp 4591: Backup, ripristino, replica e DR per la protezione dei dati del database</block>
-  <block id="5e8af025f634ab1bdb43a04eac96f1c3" category="list-text"><block ref="5e8af025f634ab1bdb43a04eac96f1c3" category="inline-link-rx"></block></block>
   <block id="d4242c48bd0d5641374fbc107c7d9f14" category="inline-link">Operazione non riuscita con errore ora-00308</block>
   <block id="79ca58af823b457a1798d606cfd6d6ae" category="list-text"><block ref="79ca58af823b457a1798d606cfd6d6ae" category="inline-link-rx"></block></block>
   <block id="73ee3801ba5f54ed62d44865741a046d" category="paragraph">Non è possibile eseguire il ripristino con il ripristino da backup secondari se i volumi di log dell'archivio non sono protetti ma i volumi di dati sono protetti. È possibile eseguire il ripristino solo selezionando *No recovery*.</block>
@@ -7677,35 +7675,10 @@
   <block id="757701cec0ed310dbf31948edd1073df" category="admonition">Per il plug-in SnapCenter per database Oracle, se si dispone di un gruppo di risorse federate con due database e uno di essi dispone di un file di dati su uno storage non NetApp, l'operazione di backup viene interrotta anche se l'altro database si trova su uno storage NetApp.</block>
   <block id="54f5c477b691c07c69aae1e40705b234" category="list-text">Se si esegue il backup dei dati delle applicazioni su VMDK e la dimensione dell'heap Java per il plug-in SnapCenter per VMware vSphere non è sufficiente, il backup potrebbe non riuscire. Per aumentare la dimensione dell'heap Java, individuare il file script<block ref="0c5aef8a69e938d29ad61fb314d26972" prefix=" " category="inline-code"></block>. In questo script, il<block ref="f751567fc5d2c300402db2d50de19910" prefix=" " category="inline-code"></block> Avvia il servizio plug-in VMware di SnapCenter. Aggiornare il comando ai seguenti valori:<block ref="d66632e2d1ccce4227411d877d93c152" prefix=" " category="inline-code"></block>.</block>
   <block id="6658143d8d013b5088fd214f730f807c" category="sidebar">Documentazione del software SnapCenter 4.6</block>
-  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
-  <block id="4b09ab22f471832d6728b6e5b9a09aa8" category="sidebar">Scopri di più su SnapCenter</block>
-  <block id="f13fe3401f6969cdc9233f418f92df1f" category="sidebar">Guida di riferimento rapido per proteggere i database di SQL Server</block>
-  <block id="c70f316066c903485b01199c3d46cf0e" category="sidebar">Aggiornare il server SnapCenter e i plug-in SnapCenter</block>
-  <block id="085f5df3ea322139c5a71aed9fd908cd" category="sidebar">Licenze richieste</block>
-  <block id="2be699659df3451ee9edbd78cb507a23" category="sidebar">Configurare le porte</block>
-  <block id="134a140044941809d4caf4bac0b38860" category="sidebar">Configurare la disponibilità elevata utilizzando F5</block>
-  <block id="044aa1b4f857dd75e47b8ffafe8440c0" category="sidebar">Disaster recovery del server SnapCenter</block>
   <block id="7c9d94dde393ed697967d78a92995d60" category="sidebar">Proteggere i database Microsoft SQL Server</block>
-  <block id="1667afeb46f8ebe931310ebf898d3035" category="sidebar">Installare il plug-in SnapCenter per il database Microsoft SQL Server</block>
-  <block id="d6f047ec290f922c255788a6f1fa067a" category="sidebar">Creare policy per il backup dei database di SQL Server</block>
-  <block id="54bab37592758bedbe84c23554e20c3a" category="sidebar">Eseguire il backup dei database di SQL Server</block>
   <block id="b45eb079efd4b3748b1efc669c02c01c" category="sidebar">Proteggere i database SAP HANA</block>
-  <block id="ecbde4f5ef166bdedbf1d5fa8e75708e" category="sidebar">Installare il plug-in SnapCenter per il database SAP HANA</block>
-  <block id="f65529b9218a6f6ff3111f2cd37df8ac" category="sidebar">Creare policy per il backup dei database SAP HANA</block>
   <block id="54a98d3cca3d552c2562869bfcebf735" category="sidebar">Proteggere i database Oracle</block>
-  <block id="d6b9b6e8bb8de7b78f01bde37923ad06" category="sidebar">Installare il plug-in SnapCenter per il database Oracle</block>
-  <block id="501ba60aa494a0bae93d0f6bf28c33d6" category="sidebar">Creare policy per il backup dei database Oracle</block>
   <block id="1aac38ab9167eb6ae3a199d0a8bc7915" category="sidebar">Eseguire il backup dei database Oracle</block>
-  <block id="8d98e1e37d7a0757bbdfdf54bf8aa618" category="sidebar">Proteggere i database su VMware</block>
-  <block id="235a656535515ab3518937c09836e60d" category="sidebar">Scopri di più sul plug-in SnapCenter per VMware vSphere</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blog e community</block>
-  <block id="e9b322021f8597d3f9236f7d98977637" category="sidebar">Blog NetApp - SnapCenter</block>
-  <block id="58e8103ac0c834ff3f8387f88cbd4c9a" category="sidebar">Community NetApp - SnapCenter</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Più risorse</block>
-  <block id="0346326f6434b805abd604ddc350d8ed" category="sidebar">Guida di riferimento per cmdlet</block>
-  <block id="832ab315e74cc6d95c21009b0c52cb2b" category="sidebar">Guida di riferimento ai comandi</block>
-  <block id="cd04e5d32cbb18b14141238ca9a7ea20" category="sidebar">Documentazione per le versioni precedenti di SnapCenter</block>
-  <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">Knowledge base di NetApp - SnapCenter</block>
   <block id="76eb854ee139a484003d75645a214f2b" category="sidebar">Disinstallare il server SnapCenter e i plug-in</block>
   <block id="60bea4969590084ae9e74b765b209fad" category="sidebar">Disinstallare i pacchetti di plug-in di SnapCenter</block>
   <block id="e62a99d48b4d9b1ce6eb1be8cdf44cca" category="sidebar">Plug-in SnapCenter per database SAP HANA</block>
@@ -7806,4 +7779,6 @@ Il ripristino di una singola casella postale di NetApp® è giunto alla fine del
   <block id="07c049db30ed73f0d52cca0a50220fcd" category="paragraph">Per ulteriori informazioni su SMBR, fare riferimento a quanto segue:</block>
   <block id="81845e1ca99f532dc90bd83c62202fc0" category="inline-link">Come ripristinare manualmente un singolo elemento con SMBR (applicabile anche per i ripristini Ontrack Power Control)</block>
   <block id="db0c2525f5f13ece537a8604a4046d7c" category="list-text"><block ref="db0c2525f5f13ece537a8604a4046d7c" category="inline-link-rx"></block></block>
+  <block id="9e19caeb431a5e29a1a63e3cee4b36c9" category="inline-link">Data Protection di Oracle con ONTAP</block>
+  <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
 </blocks>
