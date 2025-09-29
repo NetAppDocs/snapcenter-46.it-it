@@ -1594,7 +1594,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">È necessario disporre di un utente con autorizzazioni sysadmin su SQL Server.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">Il plug-in SnapCenter per Microsoft SQL Server utilizza Microsoft VDI Framework, che richiede l'accesso sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Articolo di supporto Microsoft 2926557: Le operazioni di backup e ripristino VDI di SQL Server richiedono privilegi di amministratore di sistema</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="6f4630c11483dcb4143ae30dadd50487" category="list-text">Quando si installa un plug-in su un host Windows, se si specifica una credenziale non integrata o se l'utente appartiene a un utente del gruppo di lavoro locale, è necessario disattivare il controllo dell'account utente sull'host.</block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Se SnapManager per Microsoft SQL Server è installato, è necessario aver arrestato o disattivato il servizio e le pianificazioni.</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">Se si prevede di importare processi di backup o clonazione in SnapCenter, non disinstallare SnapManager per Microsoft SQL Server.</block>
@@ -4535,7 +4534,6 @@
   <block id="41055e583e58ee1a92771580cdfe9b3f" category="list-text">Pacchetto plug-in SnapCenter per AIX, che include i seguenti plug-in:</block>
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">Il plug-in SnapCenter per UNIX non è un plug-in standalone e non può essere installato in modo indipendente. Questo plug-in viene installato automaticamente quando si installa il plug-in SnapCenter per database Oracle.</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">Plug-in personalizzati di SnapCenter</block>
-  <block id="4d85577b7a29bc5d237d7c7beb5ebc7c" category="paragraph">I plug-in personalizzati sono supportati dalla community e possono essere scaricati da<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>.</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">Il plug-in SnapCenter per VMware vSphere, in precedenza NetApp Data Broker, è un'appliance virtuale standalone che supporta le operazioni di protezione dei dati SnapCenter su database e file system virtualizzati.</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">Server SnapCenter</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">Il server SnapCenter include un server Web, un'interfaccia utente centralizzata basata su HTML5, cmdlet PowerShell, API REST e il repository SnapCenter.</block>
@@ -4572,7 +4570,6 @@
   <block id="5d5cde1005f814f00d44032094a9a04f" category="paragraph">Host client HDBSQL</block>
   <block id="4abb41aae1dfe9c81afb3c3672df559c" category="paragraph">Linux o Windows</block>
   <block id="98c5825b9b497a5e2a61777325ed802f" category="paragraph">Plug-in personalizzati</block>
-  <block id="824fb725cd78913cf73d5b8ff0ebe97c" category="paragraph"><block ref="824fb725cd78913cf73d5b8ff0ebe97c" category="inline-link-rx"></block></block>
   <block id="fde05c42841c2ef404a5ed9e7babdf62" category="paragraph">Per i backup del file system, plug-in per Windows</block>
   <block id="0c6a45824d8aa208ef88a943b710cb80" category="paragraph">Host applicativo personalizzato</block>
   <block id="a364132418180f0b14b5eb7db8b87808" category="admonition">Il plug-in SnapCenter per VMware vSphere supporta operazioni di backup e ripristino coerenti con il crash e le macchine virtuali per macchine virtuali (VM), datastore e dischi macchine virtuali (VMDK) e supporta i plug-in specifici dell'applicazione SnapCenter per proteggere le operazioni di backup e ripristino coerenti con l'applicazione per database e file system virtualizzati.</block>
@@ -4603,7 +4600,6 @@
   <block id="7362a758a4c65bbbb4dc5e948b5a5896" category="list-text">Supporta plug-in personalizzati per gestire applicazioni o database non supportati da altri plug-in SnapCenter. I plug-in personalizzati non vengono forniti come parte dell'installazione di SnapCenter.</block>
   <block id="7f8b22ee024d485fad8d1c95beda80f7" category="list-text">Supporta la creazione di copie mirror dei set di backup su un altro volume ed esecuzione della replica del backup disk-to-disk.</block>
   <block id="0bdb27719827039d79994d2a17575b2e" category="list-text">Supporta ambienti Windows e Linux. Negli ambienti Windows, le applicazioni personalizzate tramite plug-in personalizzati possono utilizzare il plug-in SnapCenter per Microsoft Windows per eseguire backup coerenti del file system.</block>
-  <block id="bef4d00fa5327b323d516fbe5c1bce99" category="paragraph">Gli esempi di plug-in personalizzati MySQL, DB2 e MongoDB per il software SnapCenter possono essere scaricati da<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="dbe26f725743679de01e440c2e7697ad" category="admonition">I plug-in personalizzati MySQL, DB2 e MongoDB sono supportati solo dalle community NetApp.</block>
   <block id="a84dab656bf020b14be7a5c3596b4288" category="paragraph">NetApp supporta la possibilità di creare e utilizzare plug-in personalizzati; tuttavia, i plug-in personalizzati creati non sono supportati da NetApp.</block>
   <block id="e0348137514c6fa588f7dc1c018f38d7" category="paragraph">Per ulteriori informazioni, vedere <block ref="42bf949f5c33c0da2d19dcdbdfcd8185" category="inline-link-macro-rx"></block></block>
@@ -4691,7 +4687,6 @@
   <block id="d7c0f46fb7673d8302d28d92b968cbd3" category="paragraph">Il programma di installazione del server SnapCenter abilita il supporto centralizzato dei certificati SSL durante l'installazione. Per migliorare la comunicazione protetta tra il server e il plug-in, SnapCenter supporta l'utilizzo dei certificati CA autorizzati forniti dal cliente.</block>
   <block id="0ff4fbc942cecadf8b215fa3272db57a" category="paragraph">È necessario implementare i certificati CA dopo aver installato il server SnapCenter e i relativi plug-in. Per ulteriori informazioni, vedere <block ref="de78619abe7dcb7b53be3c4ab98b1283" category="inline-link-macro-rx"></block>.</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="inline-link">Creare e importare certificati</block>
-  <block id="c0ddbdc2a9782e98d40c313e95e09705" category="paragraph">È inoltre possibile implementare il certificato CA per il plug-in SnapCenter per VMware vSphere. Per ulteriori informazioni, vedere<block ref="f5f72b20763af718f23ba7b5cc6b11fa" category="inline-link-rx"></block>.</block>
   <block id="61f6987ebe8ac6f46f0b880c5ae59a51" category="summary">È possibile utilizzare prescritture e postscript personalizzati come parte delle operazioni di protezione dei dati. Questi script consentono l'automazione prima o dopo il lavoro di protezione dei dati. Ad esempio, è possibile includere uno script che notifica automaticamente gli errori o gli avvisi dei processi di protezione dei dati. Prima di impostare le prescrizioni e i postscript, è necessario comprendere alcuni dei requisiti per la creazione di questi script.</block>
   <block id="7322146fa0278b7076d42a67da3ca68f" category="doc">Prescrizioni e post-script</block>
   <block id="435a98a7bde7c8c702ecea454519078b" category="section-title">Tipi di script supportati</block>
@@ -7807,4 +7802,6 @@ Il ripristino di una singola casella postale di NetApp® è giunto alla fine del
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">Knowledge base di NetApp - SnapCenter</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Per ulteriori informazioni, vedere il<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> video.</block>
+  <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">È anche possibile distribuire il certificato CA per il plug-in SnapCenter per VMware vSphere. Per ulteriori informazioni, vedere <block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block> .</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>

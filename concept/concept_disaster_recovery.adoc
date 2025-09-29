@@ -1,5 +1,5 @@
 ---
-permalink: protect-concept/concept_disaster_recovery.html 
+permalink: concept/concept_disaster_recovery.html 
 sidebar: sidebar 
 keywords:  
 summary: È possibile ripristinare il server SnapCenter in caso di disastri come il danneggiamento delle risorse o il crash del server utilizzando la funzione di disaster recovery di SnapCenter. 
